@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Sizing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="heading">Update CSS variables with<span> JS </span></h2>
+
+    <label for="spacing">-Space</label>
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px"> 
+
+    <label for="blur">-Blur</label>
+    <input type="range" name="blur" min="0" max="200" value="0" data-sizing="px">
+
+    <label for="color">-Base Color</label>
+    <input type="color" name="color" value="#ffd700">
+
+    <img src="/image.jpg">
+    <p>Instruction to use
+        1. Drag the Range bar to increase/ decrease the Effect.
+        2. Click the color's rectangular Block & choose the color and click again to the web page to apply the color!!. 
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
